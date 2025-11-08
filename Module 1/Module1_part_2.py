@@ -7,9 +7,11 @@ def main():
     num1 = float(input("Type the first number (num1): "))
     num2 = float(input("Type the second number (num2): "))
 
+    # Perform multiplication
     multiplication_result = num1 * num2
     print(f"{num1} * {num2} = {multiplication_result}")
 
+    # Perform division if num2 is not zero
     if num2 != 0:
         division_result = num1 / num2
         print(f"{num1} / {num2} = {division_result}")
